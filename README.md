@@ -8,10 +8,12 @@ A web application that is responsive and showcases my personal work.
 
 ## How to access live web application and project repository
 
-*Live URL: 
-*Repository: 
+*Live URL: https://jennabuettner.github.io/jenna-b-portfolio/
+
+*Repository: https://github.com/jennabuettner/jenna-b-portfolio
 
 ## Visual Overview of application
+![alt text](./assets/images/jenna-b-portfolio-app-img.png)
 
 ## Technologies used
 HTML, CSS, and git
