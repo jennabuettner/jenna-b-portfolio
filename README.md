@@ -12,6 +12,7 @@ A web application that is responsive and showcases my personal work.
 *Repository: 
 
 ## Visual Overview of application
+![alt text](./assets/images/jenna-b-portfolio-app-img.png)
 
 ## Technologies used
 HTML, CSS, and git
