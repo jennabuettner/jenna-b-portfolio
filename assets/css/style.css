@@ -261,6 +261,7 @@ h1 {
     font-size: 30px;
     border: solid rgb(87, 119, 87);
     background-color: rgb(87, 119, 87);
+    border-radius: 30px;
 }
 
 .card-1 {
@@ -284,7 +285,8 @@ h1 {
 .small-cards img {
     border-radius: 30px;
     padding: 5px;
-    height: 50%;
+    height: auto;
+    width: 150px;
 }
 
 .card-2, .card-3 {
