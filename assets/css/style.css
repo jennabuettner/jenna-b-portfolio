@@ -65,8 +65,8 @@ li {
     float: left;
     position: absolute;
     z-index: 3;
-    top: 400px;
-    right: 250px;
+    top: 430px;
+    right: 380px;
 }
 
 .hero h3 {
@@ -90,7 +90,7 @@ li {
     bottom: 0;
     z-index: 2;
     height: 85vh;
-    margin-bottom: -135px
+    margin-bottom: -80px
 }
 
 /* 
@@ -246,42 +246,65 @@ h1 {
 }
 
 .cards {
+    display: flex;
+    flex-direction: row;
     width: 80%;
     padding: 20px;
     border: solid #b57c12 5px;
     border-radius: 30px;
-    height: 700px;
+    height: 100%;
+    background-color: #b57c12;
+    justify-content: center;
+    }
+
+.cards h3 {
+    font-size: 30px;
+    border: solid rgb(87, 119, 87);
+    background-color: rgb(87, 119, 87);
+}
+
+.card-1 {
     display: flex;
     flex-direction: column;
-    font-size: 30px;
-    background-color: #b57c12;
-}
-.cards h3 {
-    border: solid rgb(87, 119, 87) 5px;
-    border-radius:30px;
-}
-
-.big-card {
-    background: url("assets/.images/.site-preview");
-    background-size: cover;
-    background-position: center center;
-    border-radius: 20px;
-    padding: 20px;
-    min-width: 1000px;
-    border: solid #b57c12 5px;
+    justify-content: center;
+    align-items: center;
+    border-style: solid #b57c12 5px;
+    border-radius: 30px;
+    background-color: rgb(87, 119, 87);
+    height: auto;
 }
 
-.big-card img {
-    flex: 1 1 100px;
-    max-width: 100%;
+.card-1 img {
+    border-radius: 30px;
+    padding: 5px;
+    width: 80%;
 }
 
-.small-card-1,
-.small-card-2 {
-    background-size: cover;
-    background-position: center center;
-    border: solid #b57c12 5px;
-    border-radius: 20px;
+
+.small-cards img {
+    border-radius: 30px;
+    padding: 5px;
+    height: 50%;
+}
+
+.card-2, .card-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: solid #b57c12 5px;
+    border-radius: 30px;
+    background-color: rgb(87, 119, 87);
+    margin: 10px;
+}
+
+.small-cards {
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    margin: 20px;
+    right: 500px;
+    width: 30%;
 }
 
 li:hover {
@@ -397,4 +420,4 @@ li:hover {
     h3 {
         max-width: 100vw;
     }
-} */
+}
